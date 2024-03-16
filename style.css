@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: .5rem 3rem;
+    background-color: black;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight:800;
+    color: gold !important ;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-size: large;
+    
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid gold;
+}
+#navbarSupportedContent button{
+    background: gold;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    padding: .5rem 3rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;/*TRBL*/
+}
+footer p{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+/*HOME*/
+#home{
+background-image:url(sneha.jpg);
+}
+
+.carousel-inner img{
+    height:700px;
+    width:auto;
+    margin:auto;
+    z-index:-1;
+}
+#demo{
+   position:relative;
+   z-index:-1;
+}
+.carousel-caption h1{
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size:100px;
+    color: white;
+}
+
+/*about us*/
+header{
+    
+    text-align: center;
+    text-shadow:2px 2px #f7fbfc;
+    font-size: 6rem;
+    padding-top: 4rem;
+    color: green;
+    font-style:oblique;
+    font-weight: bold;
+}
+h1{
+    text-shadow:2px 2px goldenrod;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main.justify{
+    text-align: justify;
+    text-justify:inter-word;
+}
+
+.wrapper{
+    margin: 100px auto;
+    width: 75%
+    ;
+}
+
+.wrapper img{
+    max-width: 600px;
+    float: left;
+    border: 3px solid gold;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom:20px ;
+}
+.text-box{
+    color:green;
+    
+}
+
+.text-box h2 {
+    font-size:42px;
+
+}
+.text-box p {
+    font-size:32;
+}
+
+/*contact us*/
+
+.container{
+    text-align: center;
+    width: 80% !important;
+    margin-top:10px ;
+}
+form{
+    diaplay:flex;
+    flex-direction:column;
+}
+.image, .form {
+    display: inline-block;
+    vertical-align: top;
+    padding:10px ;
+}
+#contact input{
+    margin:10px 0px;
+
+}
+#contact textarea{
+    margin:10px 0px;
+    
+}
+
+input[type="text"],input[type="email"],textarea{
+    width: 150%%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
