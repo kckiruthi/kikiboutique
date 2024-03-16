@@ -1,5 +1,5 @@
-let cart = []; // Array to store cart items
-let total = 0; // Variable to store total price
+let cart = []; 
+let total = 0;
 
 // Function to add item to cart
 function addToCart(itemName, itemPrice) {
@@ -31,8 +31,7 @@ function placeOrder() {
         return;
     }
 
-    // Here you can implement your order placing logic,
-    // for example, submitting form data to a server or displaying a confirmation message.
+
     alert('Your order has been placed! Thank you for shopping with Kiki Boutique.');
     // Clear cart after placing order
     cart = [];
@@ -40,5 +39,4 @@ function placeOrder() {
     updateCart();
 }
 
-// Add event listener to the "Place Order" button
 document.getElementById('place-order-btn').addEventListener('click', placeOrder);
